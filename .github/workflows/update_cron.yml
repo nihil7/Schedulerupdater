@@ -28,4 +28,4 @@ jobs:
       - name: Run update script
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 将 GitHub Token 放入 Secrets
-        run: python update_file_via_api.py
+        run: python update_cron.py
