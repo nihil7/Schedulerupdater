@@ -92,7 +92,7 @@ def update_file(file_content, sha):
 # 主流程
 def main():
     if not TOKEN:
-        print("❌ GitHub Token 未设置，终止程序。")
+        print("❌ Token 未设置，终止程序。")
         return
 
     file_content, sha = get_file_info()
